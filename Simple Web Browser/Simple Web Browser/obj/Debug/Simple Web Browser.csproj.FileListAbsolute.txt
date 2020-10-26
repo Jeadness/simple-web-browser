@@ -1,0 +1,10 @@
+D:\STUFF\Old folder\Simple Web Browser\Simple Web Browser\bin\Debug\Simple Web Browser.exe.config
+D:\STUFF\Old folder\Simple Web Browser\Simple Web Browser\bin\Debug\Simple Web Browser.exe
+D:\STUFF\Old folder\Simple Web Browser\Simple Web Browser\bin\Debug\Simple Web Browser.pdb
+D:\STUFF\Old folder\Simple Web Browser\Simple Web Browser\obj\Debug\Simple Web Browser.csprojAssemblyReference.cache
+D:\STUFF\Old folder\Simple Web Browser\Simple Web Browser\obj\Debug\Simple_Web_Browser.Form1.resources
+D:\STUFF\Old folder\Simple Web Browser\Simple Web Browser\obj\Debug\Simple_Web_Browser.Properties.Resources.resources
+D:\STUFF\Old folder\Simple Web Browser\Simple Web Browser\obj\Debug\Simple Web Browser.csproj.GenerateResource.cache
+D:\STUFF\Old folder\Simple Web Browser\Simple Web Browser\obj\Debug\Simple Web Browser.csproj.CoreCompileInputs.cache
+D:\STUFF\Old folder\Simple Web Browser\Simple Web Browser\obj\Debug\Simple Web Browser.exe
+D:\STUFF\Old folder\Simple Web Browser\Simple Web Browser\obj\Debug\Simple Web Browser.pdb
