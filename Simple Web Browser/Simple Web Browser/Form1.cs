@@ -16,7 +16,10 @@ namespace Simple_Web_Browser
         {
             InitializeComponent();
         }
-
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.KeyPreview = true;
+        }
         private void buttonBack_Click(object sender, EventArgs e)
         {
             browser.GoBack();
@@ -31,5 +34,7 @@ namespace Simple_Web_Browser
         {
             browser.Navigate(urlBox.Text);
         }
+
+
     }
 }

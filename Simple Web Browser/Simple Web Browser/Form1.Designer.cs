@@ -39,8 +39,9 @@
             // 
             // buttonGo
             // 
+            this.buttonGo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonGo.Image = global::Simple_Web_Browser.Properties.Resources.magnifying_glass;
-            this.buttonGo.Location = new System.Drawing.Point(1218, 9);
+            this.buttonGo.Location = new System.Drawing.Point(1218, 16);
             this.buttonGo.Name = "buttonGo";
             this.buttonGo.Size = new System.Drawing.Size(49, 53);
             this.buttonGo.TabIndex = 2;
@@ -52,7 +53,7 @@
             // 
             this.buttonForward.BackColor = System.Drawing.SystemColors.MenuBar;
             this.buttonForward.Image = global::Simple_Web_Browser.Properties.Resources.iconForward;
-            this.buttonForward.Location = new System.Drawing.Point(72, -2);
+            this.buttonForward.Location = new System.Drawing.Point(72, 7);
             this.buttonForward.Name = "buttonForward";
             this.buttonForward.Size = new System.Drawing.Size(64, 71);
             this.buttonForward.TabIndex = 1;
@@ -64,7 +65,7 @@
             // 
             this.buttonBack.BackColor = System.Drawing.SystemColors.MenuBar;
             this.buttonBack.Image = global::Simple_Web_Browser.Properties.Resources.iconBack;
-            this.buttonBack.Location = new System.Drawing.Point(2, -2);
+            this.buttonBack.Location = new System.Drawing.Point(2, 7);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(64, 71);
             this.buttonBack.TabIndex = 0;
@@ -74,7 +75,8 @@
             // 
             // urlBox
             // 
-            this.urlBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.urlBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.urlBox.Location = new System.Drawing.Point(157, 40);
             this.urlBox.Name = "urlBox";
             this.urlBox.Size = new System.Drawing.Size(1055, 22);
@@ -120,6 +122,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Simple Web Browser";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
